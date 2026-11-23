@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Data directories (students will generate their own)
+data/
+datasets/
+*.npz
+*.xml
+
+# Model checkpoints and outputs
+checkpoints/
+/models/
+student_solutions/checkpoints/
+outputs/
+runs/
+logs/
+*.pth
+*.pt
+*.h5
+*.ckpt
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Extracted reference archive, course handouts, and stray backups (do not commit)
+symboliclearning-master/
+doc.pdf
+Instruction for the project.pdf
+*_backup.py
